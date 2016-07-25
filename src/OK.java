@@ -20,6 +20,7 @@ public class OK {
 		int MAX=0;
 		
 		AtomicInteger count = new AtomicInteger(MAX);
+		System.out.println("hello suryakant");
 		
 	System.out.println("Default value is "+ count.intValue()+" And the get method return will be " +  count.getAndIncrement() );	
 	}
